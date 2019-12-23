@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                   xmlns:tools="http://schemas.android.com/tools"
+                                   android:id="@+id/card_view"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   card_view:cardBackgroundColor="#FFF"
+                                   card_view:cardCornerRadius="4dp"
+                                   card_view:cardElevation="2dp"
+                                   card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/border_image"
+                android:layout_height="200dp">
+
+        <ImageView
+                android:id="@+id/img_product2"
+                android:background="#10ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/bg_rycyle"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:text="TextView" />
+
+            <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:text="TextView" />
+
+
+            <Button android:id="@+id/btn_klikk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:drawableRight="@drawable/ic_shopping"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/bg_btnryc"
+                    android:text="BUY"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "746313843364",
+    "firebase_url": "https://tugasbesarpemesanankopi2.firebaseio.com",
+    "project_id": "tugasbesarpemesanankopi2",
+    "storage_bucket": "tugasbesarpemesanankopi2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746313843364:android:34c3130058a98eea211c31",
+        "android_client_info": {
+          "package_name": "com.siti.tugasbesarpemesanankopi2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746313843364-sggbfcojlaemcurrebri1641b750mno3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.siti.tugasbesarpemesanankopi2",
+            "certificate_hash": "52019e0f8cec9db708895dc419e6213a819548d8"
+          }
+        },
+        {
+          "client_id": "746313843364-p9e5rajp98mcrul2jacqqk5f4pr3mgg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_XdU3EBwTRrHyl4kW2Gn_lA2KAcQc3Bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746313843364-p9e5rajp98mcrul2jacqqk5f4pr3mgg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

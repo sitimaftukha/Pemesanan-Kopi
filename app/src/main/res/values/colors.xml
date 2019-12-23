@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6D2005</color>
+    <color name="colorPrimaryDark">#CD8A2706</color>
+    <color name="colorAccent">#BB3408</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="color_white">#FFFFFF</color>
+
+    <color name="mate_blue">#31353E</color>
+    <color name="light_mate_blue">#9099a8</color>
+
+    <color name="blueOrigin">#5482FC</color>
+    <color name="blueSecond">#132551</color>
+    <color name="blueSoft">#EAEFF9</color>
+    <color name="silver">#9F9F9F</color>
+    <color name="black">#080909</color>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal" android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:weightSum="2"
+              android:padding="10dp"
+>
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/border_image"
+                android:layout_height="200dp">
+
+            <ImageView
+                    android:id="@+id/img_product"
+                    android:background="#10ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+
+        </RelativeLayout>
+
+        <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="TextView" />
+
+        <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="TextView" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+                android:id="@+id/editimage"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="EDIT"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:background="@drawable/button_3"
+                android:drawableRight="@drawable/ic_edit"
+                android:paddingRight="10dp"
+                android:layout_height="50dp" android:fontFamily="@font/berkshire_swash"/>
+
+        <TextView
+                android:id="@+id/deleteimage"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:drawableRight="@drawable/ic_delete"
+                android:paddingRight="10dp"
+                android:text="DELETE"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:background="@drawable/button_3"
+                android:layout_weight="1"
+                android:layout_height="50dp" android:fontFamily="@font/berkshire_swash"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
